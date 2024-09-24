@@ -5,6 +5,7 @@ class Rat:
     self.litters = 0
     self.weight = weight
     self.name = choice(["Doggy", "Eggbeater","Potat Mc Fries","Remmi","Bayblade","Turtle","Bipples","Yurgie","Mop","Saltine","Brick"])
+  
   def mutater(self,mutationAmount):
     self.weight *= mutationAmount
 
